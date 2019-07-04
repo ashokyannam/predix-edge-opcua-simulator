@@ -1,0 +1,54 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - node-opcua > node-opcua-server-discovery > node-opcua-pki > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-server > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-client-proxy > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-client-crawler > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-client > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-server-discovery > node-opcua-server > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-vendor-diagnostic > node-opcua-server > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-server > node-opcua-address-space > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-address-space-for-conformance-testing > node-opcua-address-space > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-client > node-opcua-pki > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-server > node-opcua-client > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-client-proxy > node-opcua-client > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-address-space > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-server > node-opcua-pki > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-server-discovery > node-opcua-server > node-opcua-address-space > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-server-discovery > node-opcua-server > node-opcua-client > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-vendor-diagnostic > node-opcua-server > node-opcua-client > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-server-discovery > node-opcua-server > node-opcua-pki > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-vendor-diagnostic > node-opcua-server > node-opcua-pki > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-vendor-diagnostic > node-opcua-server > node-opcua-address-space > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-client-proxy > node-opcua-client > node-opcua-pki > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-server > node-opcua-client > node-opcua-pki > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-server-discovery > node-opcua-server > node-opcua-client > node-opcua-pki > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
+    - node-opcua > node-opcua-vendor-diagnostic > node-opcua-server > node-opcua-client > node-opcua-pki > async > lodash:
+        patched: '2019-07-04T03:25:18.275Z'
